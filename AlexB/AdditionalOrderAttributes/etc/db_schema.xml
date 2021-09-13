@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--
+Copyright ©  All rights reserved.
+See COPYING.txt for license details.
+ -->
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="sales_order">
+        <column name="test1" nullable="true" xsi:type="varchar" comment="TEST 1" length="256"/>
+        <column name="test2" nullable="true" xsi:type="varchar" comment="TEST 1" length="256"/>
+    </table>
+</schema>

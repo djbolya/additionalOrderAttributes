@@ -1,0 +1,20 @@
+{
+  "name": "alexb/additional-order-attributes",
+  "version": "1.0.0",
+  "description": "This module adds two custom attributes (extension) to the Magento 2 order API",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "AlexB\\AdditionalOrderAttributes\\": ""
+    }
+  }
+}
