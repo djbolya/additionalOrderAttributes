@@ -97,8 +97,10 @@ class OrderRepositoryPlugin
             $extensionAttributes = $extensionAttributes ? $extensionAttributes : $this->extensionFactory->create();
             $this->setAdditionalExtensionAttributes($order, $extensionAttributes);
             $order->setExtensionAttributes($extensionAttributes);
+            $orders[] = $order;
         }
-
+    
+        $searchResults->setItems($orders);
         return $searchResults;
     }
 }
